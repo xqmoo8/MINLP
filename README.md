@@ -31,5 +31,7 @@ Matlab自带的Optimization Toolbox，[Cvx](http://cvxr.com/cvx/)，[YAMLIP](htt
 
 使用C，C++，Python语言的优化工具包[COIN-OR](https://github.com/coin-or),可解决问题的类型很广泛，推荐，也是本人以后要长期研究学习的一个工具包。
 
+当然还有大名鼎鼎的[CPLEX](https://www.ibm.com/analytics/data-science/prescriptive-analytics/cplex-optimizer)。
+
 
 
