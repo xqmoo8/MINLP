@@ -7,6 +7,10 @@ MINLP (Mixed integer nonlinear programming) 问题被[Jon Lee](https://ioe.engin
 解决MINLP问题的确定性优化算法主要包括single-tree类和multi-tree类。single-tree类有非线性分支定界法（nonlinear branch and bound）和非线性分支裁剪法（
 Nonlinear Branch and cut）。而multi-tree类主要是基于解耦思想的外部近似法（outer approximation method）和benders解耦法 (Benders decomposition method)。
 
+关于数学优化算法和进化算法的区别和优缺点可以参考这篇文章：
+
+[数据 + 进化算法 = 数据驱动的进化优化？进化算法 PK 数学优化](http://baijiahao.baidu.com/s?id=1600164518587031730&wfr=spider&for=pc)
+
 
 **推荐相关的专著**
 
@@ -24,7 +28,7 @@ Nonlinear Branch and cut）。而multi-tree类主要是基于解耦思想的外�
 
 MINLP由于有着整数和连续变量，甚至包括在整数变量确定时存在非线性特性，因此，在使用确定性规划求解时，必然涉及到运筹与优化中基础的优化问题，如NLP（Non-linear programming）问题，ILP（Integer linear programming）问题。这两方面的问题都有成熟的求解算法。如果想补一补基础可以学习[Stephen P. Boyd](https://web.stanford.edu/~boyd/)的[convex optimization](http://web.stanford.edu/class/ee364a/)，有很详细的slides，电子书，以及视频教程。
 
-**Solvers**
+**Solvers**						 
 
 支持Matlab平台的有：
 Matlab自带的Optimization Toolbox，[Cvx](http://cvxr.com/cvx/)，[YAMLIP](https://yalmip.github.io/)，等
@@ -32,6 +36,3 @@ Matlab自带的Optimization Toolbox，[Cvx](http://cvxr.com/cvx/)，[YAMLIP](htt
 使用C，C++，Python语言的优化工具包[COIN-OR](https://github.com/coin-or),可解决问题的类型很广泛，推荐，也是本人以后要长期研究学习的一个工具包。
 
 当然还有大名鼎鼎的[CPLEX](https://www.ibm.com/analytics/data-science/prescriptive-analytics/cplex-optimizer)。
-
-
-
