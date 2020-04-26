@@ -45,9 +45,7 @@ MINLP由于有着整数和连续变量，甚至包括在整数变量确定时存
 | [CPLEX](https://www.ibm.com/analytics/data-science/prescriptive-analytics/cplex-optimizer) |                     |      | C                                  | 否   |      |
 | [Gurobi]( https://www.gurobi.com/ )                          | LP basic，MIP basic |      | C, C++, Java,Python, MATLAB, R等   | 否   |      |
 | [MOSEK](https://www.mosek.com/)                              |                     |      | C, C++, Java, .NET, Python, MATLAB | 否   |      |
-| [YAMLIP](https://yalmip.github.io/)                          |                     |      | Matlab                             | 否   |      |
 | Optimization Toolbox                                         |                     |      | Matlab                             | 否   |      |
-| [Cvx](http://cvxr.com/cvx/)                                  |                     |      | Matlab                             | 否   |      |
 | [COIN-OR](https://github.com/coin-or)                        |                     |      | C，C++，Python等                   | 是   |      |
 |                                                              |                     |      |                                    |      |      |
 
